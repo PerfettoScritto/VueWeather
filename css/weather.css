@@ -1,0 +1,58 @@
+#weather {
+  margin-top: 150px;
+  margin-left: 150px;
+}
+
+.footer {
+  margin-top: -59px;
+  height: 220px;
+  background: #ff9c00 !important;
+}
+h1 {
+  margin-top: -55px;
+  margin-bottom: 50px;
+  margin-left: 166px;
+}
+.list-group {
+  padding: 20px;
+  border: 1px solid #ddd;
+}
+.list-group-item:first-child {
+  font-size: 20px;
+}
+.list-group-item {
+  text-align: left;
+  padding-left: 25px;
+  text-transform: uppercase;
+  font-size: 14px;
+}
+.active {
+  background: #ff9c00 !important;
+  border: none;
+}
+.info {
+  margin-left: 50px;
+}
+.search {
+  margin-top: -85px;
+}
+
+.form-control:focus {
+  text-transform: uppercase;
+  box-shadow: none;
+  outline: none;
+  border: 1px solid grey;
+}
+
+.search .btn:focus {
+  box-shadow: none;
+}
+
+.search .btn {
+  transition: 0.3s ease-in-out;
+}
+.search .btn:hover {
+  background: #ff9c00;
+  color: white;
+  padding-right: 20px;
+}
