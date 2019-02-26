@@ -1,0 +1,1 @@
+Study project. Learning of weather API from OpenWeatherMap and Vue.js
