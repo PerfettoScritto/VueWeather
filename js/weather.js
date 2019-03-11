@@ -8,7 +8,7 @@ var app = new Vue({
     pressure: "",
     humidity: "",
     weather:
-      "http://api.openweathermap.org/data/2.5/weather?q=Moscow&units=metric&APPID=f175d657312e853ac6592c58261af057"
+      "https://api.openweathermap.org/data/2.5/weather?q=Moscow&units=metric&APPID=f175d657312e853ac6592c58261af057"
   },
 
   methods: {
