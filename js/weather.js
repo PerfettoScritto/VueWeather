@@ -33,7 +33,7 @@ var app = new Vue({
       if (this.location.length > 1) {
         this.location = this.location.toLowerCase();
         this.weather =
-          "http://api.openweathermap.org/data/2.5/weather?q=" +
+          "https://api.openweathermap.org/data/2.5/weather?q=" +
           this.location +
           "&units=metric&APPID=f175d657312e853ac6592c58261af057";
         this.getWeather();
