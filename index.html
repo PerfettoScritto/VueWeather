@@ -22,6 +22,7 @@
     <![endif]-->
   </head>
   <body>
+    <div class="container-fluid">
     <div id="weather">
       <h1 @click="getWeather">VueWeather</h1>
       <div class="container">
@@ -49,6 +50,7 @@
                 type="text"
                 class="form-control"
                 v-model="location"
+                @keyup.enter="setLocation"
                 placeholder="What is the weather in..."
               />
               <span class="input-group-btn">
@@ -66,6 +68,8 @@
           <!-- /.col-lg-6 -->
         </div>
       </div>
+    </div>
+
     </div>
     <div class="container-fluid footer"></div>
 
