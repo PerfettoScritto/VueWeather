@@ -123,7 +123,7 @@ h1 {
 }
 
 
-@media only screen and (min-width:50px) and (max-width:310px) {
+@media only screen and (min-width:50px) and (max-width:500px) {
 
     #weather {
         margin-top: 20px;
